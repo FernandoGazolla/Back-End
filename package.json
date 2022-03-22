@@ -1,17 +1,17 @@
 {
-  "name": "back-end",
-  "version": "1.0.0",
-  "description": "Nosso projeto de back-end",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Valdair Ziegler",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.3",
-    "swagger-autogen": "^2.6.3",
-    "swagger-ui-express": "^4.3.0",
-    "mongoose": "^5.4.17"
-  }
+    "name": "back-end",
+    "version": "1.0.0",
+    "description": "Nosso projeto de back-end",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Fernando Gazolla",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.3",
+        "mongoose": "^5.4.17",
+        "swagger-autogen": "^2.6.3",
+        "swagger-ui-express": "^4.3.0"
+    }
 }
