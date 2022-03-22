@@ -81,6 +81,7 @@ app.post('/usuarios/:login', (req, res) => {
     })
 })
 
+app.use('/produtos', middlewares.autenticacao, routeProduto);
 app.use('/produtos', routeProduto);
 
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerFile));
